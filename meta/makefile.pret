@@ -1,0 +1,15 @@
+# This file provides instructions for packaging.
+
+@prefix : <http://ontologi.es/doap-deps#>.
+
+`Type-Libraries`
+	:runtime-requirement    [ :on "Type::Library 0.028"^^:CpanId ];
+	:runtime-requirement    [ :on "Type::Utils 0.028"^^:CpanId ];
+	:test-requirement       [ :on "Test::More 0.96"^^:CpanId ];
+	:test-requirement       [ :on "Test::TypeTiny 0.028"^^:CpanId ];
+	:test-requirement       [ :on "Types::Standard 0.028"^^:CpanId ];
+	:test-recommendation    [ :on "MouseX::Types::Common 0.001000"^^:CpanId ];
+	:test-recommendation    [ :on "MooseX::Types::Common 0.001009"^^:CpanId ];
+	:develop-recommendation [ :on "Dist::Inkt 0.001"^^:CpanId ];
+	.
+
