@@ -4,3 +4,14 @@
 	issued  2013-09-30;
 	label   "Initial release".
 
+`Type-Libraries 0.002 cpan:TOBYINK`
+	issued  2013-10-17;
+	changeset [
+		item [
+			a dcs:Packaging, dcs:Bugfix;
+			label "Fix missing dependency on Module::Runtime.";
+			dcs:thanks cpan:ANDK;
+			dcs:fixes RT#89581;
+		];
+	].
+
